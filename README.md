@@ -11,7 +11,7 @@
 ## 📁 Directory Structure
 
 ```bash
-terraform-modules-practice/
+terraform-modular-project/
 ├── main.tf
 ├── providers.tf
 ├── variables.tf
