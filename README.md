@@ -47,14 +47,33 @@ A module consists of:
 **Without Module (Repetition):**
 
 ```hcl
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "6.4.0"
+    }
+  }
+}
+
+provider "aws" {
+  region = "us-east-1"
+}
+
 resource "aws_instance" "dev" {
-  ami           = "ami-abc"
+  ami           = "ami-0cbbe2c6a1bb2ad63"
   instance_type = "t2.micro"
+  tags = {
+    Name = "dev"
+  }
 }
 
 resource "aws_instance" "prod" {
-  ami           = "ami-abc"
+  ami           = "ami-0cbbe2c6a1bb2ad63"
   instance_type = "t2.medium"
+  tags = {
+    Name = "prod"
+  }
 }
 ```
 
