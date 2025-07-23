@@ -1,0 +1,36 @@
+# Local .terraform directories
+**/.terraform/*
+!.terraform/modules/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Terraform plan files
+*.tfplan
+
+# Sensitive variable overrides
+*.tfvars
+*.tfvars.json
+
+# Ignore .terraform.lock.hcl if you prefer not to lock provider versions
+# But often recommended to keep this in version control
+#.terraform.lock.hcl
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Shell scripts logs or temp files
+*.log
+*.bak
+*.tmp
