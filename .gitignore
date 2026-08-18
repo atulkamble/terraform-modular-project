@@ -34,3 +34,6 @@ Thumbs.db
 *.log
 *.bak
 *.tmp
+
+terraform.tfstate
+terraform.tfstate.backup
