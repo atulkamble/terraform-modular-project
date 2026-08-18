@@ -18,3 +18,19 @@ module "web_server" {
   instance_type = var.instance_type
   instance_name = var.instance_name
 }
+
+module "dev" {
+  source = "./modules/ec2"
+
+  ami_id        = var.ami_id
+  instance_type = var.instance_type
+  instance_name = "dev-instance"
+}
+
+module "prod" {
+  source = "./modules/ec2"
+
+  ami_id        = var.ami_id
+  instance_type = var.instance_type
+  instance_name = "prod-instance"
+}
