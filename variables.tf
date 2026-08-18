@@ -26,8 +26,3 @@ variable "instance_type_prod" {
   type        = string
   default     = "t3.large"
 }
-
-variable "instance_name" {
-  description = "EC2 instance name"
-  type        = string
-}
