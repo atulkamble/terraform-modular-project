@@ -11,12 +11,12 @@ provider "aws" {
   region = var.aws_region
 }
 
-module "web_server" {
+module "base" {
   source = "./modules/ec2"
 
   ami_id        = var.ami_id
   instance_type = var.instance_type
-  instance_name = var.instance_name
+  instance_name = "base-instance"
 }
 
 module "dev" {
