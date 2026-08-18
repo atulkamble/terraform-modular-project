@@ -23,7 +23,7 @@ module "dev" {
   source = "./modules/ec2"
 
   ami_id        = var.ami_id
-  instance_type = var.instance_type
+  instance_type = "var.instance_type_dev"
   instance_name = "dev-instance"
 }
 
@@ -31,6 +31,6 @@ module "prod" {
   source = "./modules/ec2"
 
   ami_id        = var.ami_id
-  instance_type = var.instance_type
+  instance_type = "var.instance_type_prod"
   instance_name = "prod-instance"
 }

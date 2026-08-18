@@ -15,6 +15,18 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 
+variable "instance_type_dev" {
+  description = "EC2 instance type for development"
+  type        = string
+  default     = "t3.medium"
+}
+
+variable "instance_type_prod" {
+  description = "EC2 instance type for production"
+  type        = string
+  default     = "t3.large"
+}
+
 variable "instance_name" {
   description = "EC2 instance name"
   type        = string

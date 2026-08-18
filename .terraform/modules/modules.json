@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"dev","Source":"./modules/ec2","Dir":"modules/ec2"},{"Key":"prod","Source":"./modules/ec2","Dir":"modules/ec2"},{"Key":"web_server","Source":"./modules/ec2","Dir":"modules/ec2"}]}
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"base","Source":"./modules/ec2","Dir":"modules/ec2"},{"Key":"dev","Source":"./modules/ec2","Dir":"modules/ec2"},{"Key":"prod","Source":"./modules/ec2","Dir":"modules/ec2"},{"Key":"web_server","Source":"./modules/ec2","Dir":"modules/ec2"}]}
