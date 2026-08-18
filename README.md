@@ -1,4 +1,4 @@
-## Terraform Modules — Basic Theory
+## Terraform Modules
 
 A **Terraform module** is a reusable group of Terraform configuration files. Instead of writing the same EC2 configuration repeatedly, you can create an EC2 module once and reuse it for Dev, Test, and Prod.
 
